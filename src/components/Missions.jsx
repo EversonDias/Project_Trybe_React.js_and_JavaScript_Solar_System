@@ -6,10 +6,14 @@ import MissionCard from './MissionCard';
 class Missions extends React.Component {
   render() {
     return (
-      <div data-testid="missions">
+      <div
+        className="bg-slate-600/[.30] p-1 w-4/5 mt-[50px]
+      rounded-md m-auto"
+        data-testid="missions"
+      >
         <Title headline="Missões" />
-        <div>
-          { missions.map((mission) => (
+        <div className="flex flex-wrap justify-center">
+          {missions.map((mission) => (
             <MissionCard
               key={ mission.name }
               name={ mission.name }
@@ -17,7 +21,7 @@ class Missions extends React.Component {
               country={ mission.country }
               destination={ mission.destination }
             />
-          )) }
+          ))}
         </div>
       </div>
     );

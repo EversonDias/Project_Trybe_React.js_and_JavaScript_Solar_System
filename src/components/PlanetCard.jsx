@@ -5,9 +5,11 @@ class PlanetCard extends React.Component {
   render() {
     const { planetName, planetImage } = this.props;
     return (
-      <div data-testid="planet-card">
-        <img src={ planetImage } alt={ `Planeta ${planetName}` } />
-        <p data-testid="planet-name">{ planetName }</p>
+      <div className="flex-none m-5 text-center" data-testid="planet-card">
+        <div className="h-52 flex justify-center items-center">
+          <img src={ planetImage } alt={ `Planeta ${planetName}` } />
+        </div>
+        <p className="text-white" data-testid="planet-name">{planetName}</p>
       </div>
     );
   }

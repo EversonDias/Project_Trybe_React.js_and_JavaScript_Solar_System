@@ -1,3 +1,58 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./images/background.png');
+}
+
+.container-planet :nth-child(1) > div > img {
+  width: 41px;
+  height: 31px;
+}
+
+.container-planet :nth-child(2) > div > img {
+  width: 102px;
+  height: 76px;
+}
+
+.container-planet :nth-child(3) > div > img {
+  width: 106px;
+  height: 79px;
+}
+
+.container-planet :nth-child(4) > div > img {
+  width: 66px;
+  height: 50px;
+}
+
+.container-planet :nth-child(5) > div > img {
+  width: 272px;
+  height: 204px;
+}
+
+.container-planet :nth-child(5) > div > img {
+  width: 272px;
+  height: 204px;
+}
+
+.container-planet :nth-child(6) > div > img {
+  width: 282.41px;
+  height: 210.9px;
+}
+
+.container-planet :nth-child(7) > div > img {
+  width: 144px;
+  height: 109px;
+}
+
+.container-planet :nth-child(8) > div > img {
+  width: 144px;
+  height: 107px;
 }
