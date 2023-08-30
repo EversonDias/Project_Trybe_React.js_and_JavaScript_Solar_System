@@ -1,5 +1,7 @@
 @tailwind base;
+
 @tailwind components;
+
 @tailwind utilities;
 
 * {
@@ -12,47 +14,47 @@ body {
   background-image: url('./images/background.png');
 }
 
-.container-planet :nth-child(1) > div > img {
-  width: 41px;
+.container-planet :nth-child( 1 ) > div > img {
   height: 31px;
+  width: 41px;
 }
 
-.container-planet :nth-child(2) > div > img {
-  width: 102px;
+.container-planet :nth-child( 2 ) > div > img {
   height: 76px;
+  width: 102px;
 }
 
-.container-planet :nth-child(3) > div > img {
-  width: 106px;
+.container-planet :nth-child( 3 ) > div > img {
   height: 79px;
+  width: 106px;
 }
 
-.container-planet :nth-child(4) > div > img {
-  width: 66px;
+.container-planet :nth-child( 4 ) > div > img {
   height: 50px;
+  width: 66px;
 }
 
-.container-planet :nth-child(5) > div > img {
-  width: 272px;
+.container-planet :nth-child( 5 ) > div > img {
   height: 204px;
-}
-
-.container-planet :nth-child(5) > div > img {
   width: 272px;
-  height: 204px;
 }
 
-.container-planet :nth-child(6) > div > img {
-  width: 282.41px;
+.container-planet :nth-child( 5 ) > div > img {
+  height: 204px;
+  width: 272px;
+}
+
+.container-planet :nth-child( 6 ) > div > img {
   height: 210.9px;
+  width: 282.41px;
 }
 
-.container-planet :nth-child(7) > div > img {
-  width: 144px;
+.container-planet :nth-child( 7 ) > div > img {
   height: 109px;
+  width: 144px;
 }
 
-.container-planet :nth-child(8) > div > img {
-  width: 144px;
+.container-planet :nth-child( 8 ) > div > img {
   height: 107px;
+  width: 144px;
 }
