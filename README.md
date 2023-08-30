@@ -40,7 +40,7 @@ Para acessar e executar este projeto, siga os passos abaixo:
 2. Clone o Projeto
 
 ```bash
-git clone  SolarSystem
+git clone https://github.com/EversonDias/Project_Trybe_React.js_and_JavaScript_Solar_System.git SolarSystem
 ```
 
 3. Entre no projeto
